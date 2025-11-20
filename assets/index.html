@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke Mania</title>
+
+    <!--CSS do Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC&family=Bebas+Neue&family=Bungee&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar d-flex justify-content-between align-items-center p-3">
+
+            <div class="logo">
+                <img src="./images/Logo.png" alt="Logo Poke Mania">
+            </div>
+
+            <form class="barra-de-pesquisa d-flex align-items-center" role="search">
+                <input type="text" placeholder="Procure por Cards e Produtos">
+                <img src="./icons/lupa de pesquisa.png" alt="Ìcone Barra de Pesquisa" class="search-icon">
+            </form>
+
+            <div class="usuário d-flex align-items-center">
+                <img src="./icons/usuário dark.png" alt="Ìcone usuário">
+                <span>Cadastre-se</span>
+                <img src="./icons/cart.png" alt="Ìcone Carrinho">
+            </div>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <a href="" class="Ìcone Cards"><img src="./icons/Cards.png" alt="Ìcone Cards"><span>Cards</span></a>
+                <a href="" class="Ìcone Pokédex"><img src="./icons/Pokédex.png"
+                        alt="Ìcone Pokédex"><span>Pokédex</span></a>
+                <a href="" class="Ìcone Produtos"><img src="./icons/box.png"
+                        alt="Ìcone Produtos"><span>Produtos</span></a>
+                <a href="" class="Ìcone Acessórios"><img src="./icons/acessórios.png"
+                        alt="Ìcone Acessórios"><span>Acessórios</span></a>
+                <a href="" class="Ìcone Comunidade"><img src="./icons/comunidade.png"
+                        alt="Ìcone Comunidade"><span>Comunidade</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carrossel-e-banners">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+            <!--Inicio slide carrossel-->
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./images/slide 1.png" class="d-block w-100" alt="slide gengar">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/slide 2.png" class="d-block w-100" alt="slide chariza">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/slide 3.png" class="d-block w-100" alt="slide Mchariza">
+                </div>
+
+            </div>
+            <!--Fim slide carrossel-->
+
+            <!--Inicio dos indicadores para navegar nos slides do carrossel-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <!--Fim dos indicadores para navegar nos slides do carrossel-->
+
+        </div>
+    </section>
+
+    <main>
+
+        <div class="fundo-superior" style="height: 180px;"></div>
+
+        <section class="pokemon-em-destaque">
+            <div class="banner-anuncio">
+                <img src="./images/Baner produtos.png" alt="sessão de produtos">
+            </div>
+        </section>
+        <section>
+            <div class="titulo-separador1">
+                <div class="linha"></div>
+                <img src="./images/master boll.png" alt="master boll">
+                <h1>POKÉMON EM DESTAQUE</h1>
+                <div class="linha"></div>
+            </div>
+
+            <div class="pokemon-img">
+                <img src="./images/Banner Pokemon.png" alt="">
+            </div>
+
+            <div class="botao pokedex">
+                <a href="https://www.pokemon.com/br/pokedex" class="btn-pokedex">
+                    <span class="Ìcone Pokédex"> <img src="./icons/Pokédex.png" alt=""></span>
+                    <span>POKÉDEX</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="produtos-mais-vendidos">
+            <div class="titulo-separador2">
+                <div class="linha"></div>
+                <img src="./images/great boll.png" alt="great boll">
+                <h2>PRODUTOS MAIS VENDIDOS</h2>
+                <div class="linha"></div>
+            </div>
+
+            <div class="Produtos-img">
+                <img src="./images/Produtos.png" alt="Produtos mais vendidos">
+            </div>
+
+            <div class="botao-ver-produtos">
+                <a href="https://s.shopee.com.br/40YjTud8we?share_channel_code=1" class="btn- ver produtos">
+                    <span class="ver produtos"> <img src="./icons/plus sign.png" alt=""></span>
+                    <span>VER MAIS PRODUTOS</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="cards-em-alta">
+            <div class="titulo-separador3">
+                <div class="linha"></div>
+                <img src="./images/poke boll max px.png" alt="poke boll">
+                <h3>CARDS EM ALTA</h3>
+                <div class="linha"></div>
+            </div>
+
+            <div class="cartas-img">
+                <img src="./images/Produtos (1).png" alt="cartas mais vendidas">
+            </div>
+
+            <div class="botao-ver-cartas">
+                <a href="https://s.shopee.com.br/40YjTud8we?share_channel_code=1" class="btn- ver cartas">
+                    <span class="ver cartas"> <img src="./icons/plus sign.png" alt=""></span>
+                    <span>VER MAIS CARTAS</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="historia-loja">
+            <div class="historia-container">
+
+                <div class="historia-img">
+                    <img src="./images/imagem gameboy.png" alt="Pokédex Retro Pixel Art">
+                </div>
+
+                <div class="historia-texto">
+                    <h4>HISTÓRIA DA POKE MANIA</h4>
+                    <p>A Poke Mania nasceu da minha paixão de infância pelas cartas de Pokémon. Sempre amei colecionar,
+                        trocar e jogar. Hoje, unindo esse amor com a tecnologia, criei uma loja feita para quem também
+                        vive esse universo. Aqui cada carta tem valor, história e nostalgia.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer-containe-principal">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="./images/Logo.png" alt="Logo Poke Mania">
+                </div>
+
+                <form class="footer-busca">
+                    <input type="text" placeholder="Procure por Cards e Produtos">
+                    <img src="./icons/lupa de pesquisa.png" alt="Ìcone Barra de Pesquisa">
+                </form>
+            </div>
+
+            <div class="separador-vertical"></div>
+
+            <div class="footer-right">
+                <img src="./images/dragonite.png" alt="Ilustração do Pokémon Dragonite em Pixel Art"
+                    class="dragonite-img">
+            </div>
+
+            <div class="contato">
+                <a href="mailto:contato@pokemania.com" aria-label="Gmail">
+                    <img src="./icons/Gmail.png" alt="Ícone Gmail">
+                </a>
+                <a href="https://www.instagram.com/poke_mania.18" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
+                    <img src="./icons/Instagram.png" alt="Ícone Instagram">
+                </a>
+                <a href="https://www.facebook.com/pokemania" target="_blank" rel="noopener noreferrer"
+                    aria-label="Facebook">
+                    <img src="./icons/Facebook.png" alt="Ícone Facebook">
+                </a>
+            </div>
+
+            <div class="linha-final-esquerda"></div>
+            <div class="linha-final-direita"></div>
+
+        </div>
+    </footer>
+    <!--Incluir o JS do Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
