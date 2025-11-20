@@ -1,4 +1,4 @@
-Portfólio Poke Mania Store: Meu Projeto HTML & CSS
+Portfólio Poke Mania Store: Meu Projeto HTML e CSS
 
 Este projeto é o meu portfólio pessoal, onde apliquei minhas habilidades em HTML5 e CSS3 para desenvolver o frontend da minha própria loja temática, a Poke Mania Store. Meu foco foi criar um código limpo e uma experiência visual que refletisse fielmente o design que imaginei.
 
